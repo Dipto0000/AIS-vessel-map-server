@@ -31,3 +31,7 @@ Thumbs.db
 
 # Coverage
 coverage/
+
+# Miscellaneous
+agents.md
+AGENTS.md

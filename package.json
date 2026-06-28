@@ -20,8 +20,10 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
+    "ais-stream-decoder": "^2.1.2",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.7.3"
+    "mongoose": "^9.7.3",
+    "socket.io": "^4.8.3"
   }
 }
