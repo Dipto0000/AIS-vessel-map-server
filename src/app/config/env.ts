@@ -23,7 +23,6 @@ const loadEnvVariables = (): EnvConfig => {
     PORT: process.env.PORT as string,
     MONGODB_URI: process.env.MONGODB_URI as string,
     NODE_ENV: process.env.NODE_ENV as "development" | "production" | "test",
-    // AIS_HOST / AIS_PORT are optional; defaults match agents.md §3.4.
     AIS_HOST: process.env.AIS_HOST ?? "ais.portvision.com",
     AIS_PORT: Number(process.env.AIS_PORT ?? "56524"),
   };
